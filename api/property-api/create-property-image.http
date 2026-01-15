@@ -1,0 +1,7 @@
+### Create a new property image
+POST localhost:8081/api/property-images
+Content-Type: application/json
+
+               {
+
+               }

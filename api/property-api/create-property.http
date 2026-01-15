@@ -1,0 +1,19 @@
+### Create new property
+POST localhost:8081/api/properties
+Content-Type: application/json
+
+          {
+            "title": "Appartement moderne",
+            "description": "Bel appartement avec balcon et vue sur la ville",
+            "price": 120000,
+            "type": "Appartement",
+            "bedrooms": "3",
+            "bathrooms": "2",
+            "area": "85 m²",
+            "address": "123 Rue de la République",
+            "city": "Conakry",
+            "latitude": "9.537",
+            "longitude": "13.678",
+            "status": "AVAILABLE",
+            "userId": 9
+          }

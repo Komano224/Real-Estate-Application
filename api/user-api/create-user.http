@@ -1,0 +1,11 @@
+### Create an user
+
+POST localhost:8081/api/users
+Content-Type: application/json
+
+        {
+          "name": "Bob",
+          "email": "mohamedbobkomano@gmail.com",
+          "phoneNumber": "626915470",
+          "password": "secret123"
+        }

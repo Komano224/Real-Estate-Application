@@ -1,0 +1,12 @@
+### UPdate an existing user
+
+PUT localhost:8081/api/users/9
+Content-Type: application/json
+
+              {
+                "name": "Abou Bob",
+                "email": "abou9@example.com",
+                "phoneNumber": "620468550",
+                "password": "1234567"
+
+              }
