@@ -1,0 +1,19 @@
+# Build
+/target/
+
+# Uploads (images)
+uploads/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE / editor
+*.iml
+.idea/
+.vscode/
+
+# Sensitive config
+/application.properties
